@@ -1,0 +1,73 @@
+
+#game{
+    height: 70%;
+    width: 50%;
+}
+main {
+    width: 50%;
+    height: 70%;
+    left: 0%;
+    position: absolute;
+    background-color: #2A2A2B; }
+
+
+main h2{
+    color: #fff;
+    text-align: center;
+    margin-top:2%;
+}
+main p{
+    margin-top: -5%;
+    color: #fff;
+    text-align: right;
+    margin-right: 5%;
+}
+
+#field {
+    margin-top: 10%;
+    background-color: #121312;
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1; }
+#field .snake-head {
+    width: 2rem;
+    height: 2rem;
+    background-color: #1976D2;
+    position: absolute;
+    background-color: #9CCC65;
+    z-index: 1; }
+#field .snake-tail {
+    width: 2rem;
+    height: 2rem;
+    background-color: #1976D2;
+    position: absolute;
+    background-color: #fff; }
+#field .food {
+    width: 2rem;
+    height: 2rem;
+    background-color: #1976D2;
+    position: absolute;
+    background-color: #E91E63; }
+
+#infoAlert {
+    width: 12rem;
+    height: auto;
+    margin-top: 8%;
+    left: calc(50% - 5rem);
+    background-color: #F7F7F7;
+    z-index: 10;
+    position: absolute;
+    text-align: center;
+    display: none;
+    padding: .8rem;
+    border: 2px solid #607D8B; }
+#infoAlert a {
+    text-decoration: none;
+    color: green;
+    outline: none; }
+.controles{
+    margin-left: 80%;
+    margin-top: 1%;
+}
